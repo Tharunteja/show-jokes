@@ -1,0 +1,8 @@
+1. Describe the thought process regarding the folder structure.
+    I've used angular-cli to create the project, since it has got some in built folder structure by default.
+    Created services folder so that all the services within the app can be placed in it and is easily accessible.
+    Created interface called jokes.interface.ts within app folder to get the right typed data.
+
+2. Describe the thought process behind creating the service.
+    To maintain all the API calls and to handle other functionalities created jokes.service.ts file within
+    services folder, and injected this service at the root so that this can be used throughout the application,
